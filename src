@@ -1,0 +1,123 @@
+create database f1_store;
+use f1_store;
+
+create table mini_capacetes (
+id_minicapacete int auto_increment primary key,
+escuderia varchar(100),
+piloto_1 varchar(100),
+piloto_2 varchar(100),
+descricao text
+);
+
+insert into mini_capacetes (escuderia, piloto_1, piloto_2) values
+("red bull", "max verstappen ", "liam lawson"),
+("ferrari", "charles leclerc", "lewis hamilton"),
+("mercedes", "kimi antonelli", "george russel"),
+("aston martin", "fernando alonso", "lance stroll"),
+("haas", "ollie bearman", "esteban ocon"),
+("alpine", "pierre gasly", "jack doohan"),
+("mclaren", "oscar piastri", "lando norris"),
+("williams", "carlos sainz jr", "alex albon"),
+("kick sauber", "gabriel bortoleto", "nico hulkenberg"),
+("rb visa cash", "yuki tsunoda", "isaac hadjar");
+
+create table camisas (
+id_camisa int auto_increment primary key,
+escuderia varchar(100),
+piloto_1 varchar(100),
+piloto_2 varchar(100),
+descricao text
+);
+
+insert into camisas (escuderia, piloto_1, piloto_2) values
+("red bull", "max verstappen ", "liam lawson"),
+("ferrari", "charles leclerc", "lewis hamilton"),
+("mercedes", "kimi antonelli", "george russel"),
+("aston martin", "fernando alonso", "lance stroll"),
+("haas", "ollie bearman", "esteban ocon"),
+("alpine", "pierre gasly", "jack doohan"),
+("mclaren", "oscar piastri", "lando norris"),
+("williams", "carlos sainz jr", "alex albon"),
+("kick sauber", "gabriel bortoleto", "nico hulkenberg"),
+("rb visa cash", "yuki tsunoda", "isaac hadjar");
+
+create table photocards (
+id_photocard int auto_increment primary key,
+escuderia varchar(100),
+piloto_1 varchar(100),
+piloto_2 varchar(100),
+descricao text
+);
+
+insert into photocards (escuderia, piloto_1, piloto_2) values
+("red bull", "max verstappen ", "liam lawson"),
+("ferrari", "charles leclerc", "lewis hamilton"),
+("mercedes", "kimi antonelli", "george russel"),
+("aston martin", "fernando alonso", "lance stroll"),
+("haas", "ollie bearman", "esteban ocon"),
+("alpine", "pierre gasly", "jack doohan"),
+("mclaren", "oscar piastri", "lando norris"),
+("williams", "carlos sainz jr", "alex albon"),
+("kick sauber", "gabriel bortoleto", "nico hulkenberg"),
+("rb visa cash", "yuki tsunoda", "isaac hadjar");
+
+create table posters (
+id_poster int auto_increment primary key,
+escuderia varchar(100),
+piloto_1 varchar(100),
+piloto_2 varchar(100),
+descricao text
+);
+
+insert into posters (escuderia, piloto_1, piloto_2) values
+("red bull", "max verstappen ", "liam lawson"),
+("ferrari", "charles leclerc", "lewis hamilton"),
+("mercedes", "kimi antonelli", "george russel"),
+("aston martin", "fernando alonso", "lance stroll"),
+("haas", "ollie bearman", "esteban ocon"),
+("alpine", "pierre gasly", "jack doohan"),
+("mclaren", "oscar piastri", "lando norris"),
+("williams", "carlos sainz jr", "alex albon"),
+("kick sauber", "gabriel bortoleto", "nico hulkenberg"),
+("rb visa cash", "yuki tsunoda", "isaac hadjar");
+
+create table mini_carros (
+id_minicarro int auto_increment primary key,
+escuderia varchar(100),
+piloto_1 varchar(100),
+piloto_2 varchar(100),
+descricao text
+);
+
+insert into mini_carros (escuderia, piloto_1, piloto_2) values
+("red bull", "max verstappen ", "liam lawson"),
+("ferrari", "charles leclerc", "lewis hamilton"),
+("mercedes", "kimi antonelli", "george russel"),
+("aston martin", "fernando alonso", "lance stroll"),
+("haas", "ollie bearman", "esteban ocon"),
+("alpine", "pierre gasly", "jack doohan"),
+("mclaren", "oscar piastri", "lando norris"),
+("williams", "carlos sainz jr", "alex albon"),
+("kick sauber", "gabriel bortoleto", "nico hulkenberg"),
+("rb visa cash", "yuki tsunoda", "isaac hadjar");
+
+create table macacoes (
+id_macacao int auto_increment primary key,
+escuderia varchar(100),
+piloto_1 varchar(100),
+piloto_2 varchar(100),
+descricao text
+);
+
+insert into macacoes (escuderia, piloto_1, piloto_2) values
+("red bull", "max verstappen ", "liam lawson"),
+("ferrari", "charles leclerc", "lewis hamilton"),
+("mercedes", "kimi antonelli", "george russel"),
+("aston martin", "fernando alonso", "lance stroll"),
+("haas", "ollie bearman", "esteban ocon"),
+("alpine", "pierre gasly", "jack doohan"),
+("mclaren", "oscar piastri", "lando norris"),
+("williams", "carlos sainz jr", "alex albon"),
+("kick sauber", "gabriel bortoleto", "nico hulkenberg"),
+("rb visa cash", "yuki tsunoda", "isaac hadjar");
+
