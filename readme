@@ -1,0 +1,17 @@
+Este projeto é um banco de dados destinado a armazenar e gerenciar informações relacionadas a uma loja. Ele inclui dados como produtos, preços, categorias e informações sobre estoque, permitindo um controle eficiente e organização das operações comerciais.
+
+Funcionalidades
+
+Armazenamento de informações sobre produtos (nome, preço, categoria, etc.).
+
+Controle de estoque para verificar a disponibilidade dos itens.
+
+Consultas e listagens de produtos disponíveis no banco de dados.
+
+Potencial para integrar funcionalidades de inserção e atualização de dados no banco de dados.
+
+Tecnologias Utilizadas
+
+Banco de dados MySQL
+
+este trabalho esta na licença mit
